@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GlobalConnect Registration</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="background-container">
+    <div class="container">
+      <h2>Welcome to GlobalConnect</h2>
+      <p class="description">Join GlobalConnect and connect with people from all around the world! Whether you're looking to make new friends, expand your professional network, or discover new opportunities, GlobalConnect offers a platform for global communication and collaboration. Sign up today and be part of a worldwide community!</p>
+      <div class="form-container">
+        <h3>GlobalConnect Registration Form</h3>
+        <form id="registration-form" action="#" method="post">
+          <div class="form-group">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" placeholder="Enter your username" required>
+            <span class="error-message" id="username-error"></span>
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+            <span class="error-message" id="email-error"></span>
+          </div>
+          <div class="form-group">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required>
+            <span class="error-message" id="password-error"></span>
+          </div>
+          <div class="form-group">
+            <label for="confirm-password">Confirm Password:</label>
+            <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm your password" required>
+            <span class="error-message" id="confirm-password-error"></span>
+          </div>
+          <div class="button-container">
+            <button type="submit">Register</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
